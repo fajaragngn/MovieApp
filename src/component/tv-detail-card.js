@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import '../detail.css';
+import '../assets/detail.css';
 import star from '../star.png'
 import ModalVideo from './modal-video';
 import Logo from './img/PngItem_6391407.png'
