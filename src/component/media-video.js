@@ -5,7 +5,7 @@ function MediaVideo(props){
 
     return(
 props.video.map(m => {
-  const img = `http://i3.ytimg.com/vi/${m.key}/hqdefault.jpg`
+  const img = `https://i.ytimg.com/vi/${m.key}/hqdefault.jpg`
 return <div className="container-videos" >
     <div className="image-wrapper">
     <img className="video-img" src={img} / >
