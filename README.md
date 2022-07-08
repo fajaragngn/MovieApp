@@ -1,7 +1,5 @@
 # Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ![img](public/img/1.png)
 
 ![img](public/img/2.png)
