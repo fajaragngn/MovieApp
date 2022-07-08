@@ -399,8 +399,8 @@ justify-content: space-between;
   flex-direction: column;
   gap: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ /* -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
   position: relative;
   overflow: hidden;
   height: 100%;
@@ -459,7 +459,7 @@ justify-content: space-between;
   align-items: center;
   gap: 10px;
   border: 1px solid #031d33;
-  border-radius: 15px;
+
 }
 
 .tittle-inner a {
@@ -473,8 +473,8 @@ justify-content: space-between;
 
 .tittle-inner .actives {
   background-color: #031d33;
-  color: #20f0e5;
-  border-radius: 15px;
+  color: white;
+
   transition: 500ms;
 }
 
