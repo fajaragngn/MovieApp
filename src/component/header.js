@@ -79,11 +79,7 @@ dropDown = (e) => {
           <li className="dropdown"><Link to='/movies/'>Movie</Link></li>
           <li className="dropdown-tv"><Link to='/tv-series/'>TV Series</Link></li>
           <li><Link to='/anime-populer/'>Anime</Link></li>
-          <li><a href="#">People</a>
-            <ul className="people-list">
-            <li><Link to='/popular-people'>Popular People</Link></li>   
-            </ul>
-          </li>
+          <li><Link to='/popular-people'>People</Link></li>
         </ul>
         <form className="form" onSubmit={this.searchFetch}>
 <input  type="text" name="search" placeholder="Search.." onChange={this.handlerChange}/>

@@ -29,7 +29,7 @@ if(vid){
 
 render(){
 const video = this.state.video
-    const img = `http://i3.ytimg.com/vi/${video.key}/hqdefault.jpg`
+    const img = `https://i.ytimg.com/vi/${video.key}/hqdefault.jpg`
     const style = {
       transform:`translateX(-${this.props.index * 100}%)`
   }
@@ -37,7 +37,7 @@ const video = this.state.video
     return(
      <div className="container-videos" style={style}>
     <div className="image-wrapper">
-    <img className="video-img" src={img} / >
+    <img className="video-img" alt='img-gambar' src={img} / >
     <a href="#" className="play" onClick={this.props.playVideo} ><img class="play-img"src={Logo} alt="" data-mykey={video.key} /></a>
     </div>
     <div className="info">
