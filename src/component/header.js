@@ -75,7 +75,7 @@ dropDown = (e) => {
 </div>
 <nav className="navbar" ref={this.state.navbar}>
         <ul className="list">
-        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/'><img width="51" src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" alt="" /></Link></li>
           <li className="dropdown"><Link to='/movies/'>Movie</Link></li>
           <li className="dropdown-tv"><Link to='/tv-series/'>TV Series</Link></li>
           <li><Link to='/anime-populer/'>Anime</Link></li>

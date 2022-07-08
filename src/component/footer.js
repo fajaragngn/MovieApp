@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../tmdb-logo.svg';
-import github from '../github.png'
 function Footer(){
     return(
 <footer className="footers">
