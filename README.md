@@ -1,5 +1,9 @@
 # Movie App
 
+Use [TheMovieDB API](https://www.themoviedb.org/)
+
+Built with React ❤️
+
 ![img](public/img/1.png)
 
 ![img](public/img/2.png)
