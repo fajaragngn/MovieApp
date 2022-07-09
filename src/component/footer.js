@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../tmdb-logo.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTerminal} from '@fortawesome/free-solid-svg-icons'
 function Footer() {
   return (
     <footer className="footers">
@@ -10,7 +12,10 @@ function Footer() {
         >
           <img src={logo} alt="" />
         </a>
+        
       </div>
+      <br/>
+      <center> <p><FontAwesomeIcon icon={faTerminal} /> Built with React ❤️</p> </center>
     </footer>
   );
 }
