@@ -1,6 +1,6 @@
 # Movie App
 
-Use [TheMovieDB API](https://www.themoviedb.org/)
+Use [TheMovieDB API](https://developers.themoviedb.org/3)
 
 Built with React ❤️
 
