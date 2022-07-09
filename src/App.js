@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './component/header'
 import './assets/App.css';
-import { BrowserRouter as Router, Switch, Route ,Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route ,Routes} from 'react-router-dom';
 import Home from './component/home'
 import  NotFound from  './component/404not'
 import TvDetail from  './component/tv-detail';
