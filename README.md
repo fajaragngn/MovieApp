@@ -4,8 +4,6 @@ Use [TheMovieDB API](https://www.themoviedb.org/)
 
 Built with React ❤️
 
-### `npm start`
-
 ```shell
 npm start
 ```
