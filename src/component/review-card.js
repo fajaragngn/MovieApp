@@ -2,7 +2,7 @@ import React from "react";
 import akun from "../akun.png";
 
 function ReviewCard(props) {
-  const img = `https://image.tmdb.org/t/p/w185/${props.data.author_details.avatar_path}`;
+  const img = `${props.data.author_details.avatar_path}`;
   return (
     <div className="review-card">
       <div className="profil">

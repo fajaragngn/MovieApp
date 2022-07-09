@@ -90,7 +90,7 @@ class LeftSidebar extends React.Component {
                   data-id="day"
                   onClick={this.trendingClick}
                 >
-                  Today
+                  Hari ini
                 </a>
               </li>
               <li>
@@ -100,7 +100,7 @@ class LeftSidebar extends React.Component {
                   data-id="week"
                   onClick={this.trendingClick}
                 >
-                  This Week
+                  Minggu ini
                 </a>
               </li>
             </ul>

@@ -6,7 +6,7 @@ class NotFound extends React.Component {
     return (
       <>
         <div className="not-found">
-          <h1>PAGE NOT FOUND</h1>
+          <h1>Halaman tidak ditemukan</h1>
           <Link to="/">BACK TO HOME</Link>
         </div>
       </>

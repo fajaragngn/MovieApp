@@ -210,7 +210,7 @@ class CastDanRekomen extends React.Component {
               to={ID}
               className={this.state.review.length > 1 ? "load" : "hide"}
             >
-              Load More
+             <u>Load More</u> 
             </Link>
           </div>
         </div>
