@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 class TrendingCard extends React.Component {
   constructor() {
@@ -59,7 +61,7 @@ class TrendingCard extends React.Component {
             <Link to={ID}>{this.props.title}</Link>
           </h4>
           <ul className="genres">Genres: {genre}</ul>
-          <span className="rate">{this.props.rating}</span>
+          <span className="rate"><FontAwesomeIcon icon={faStar} /> {this.props.rating}</span>
         </div>
       </div>
     );
